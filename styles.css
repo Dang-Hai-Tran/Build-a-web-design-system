@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: gray;
+  position: relative;
+  width: 81%;
+  left: 10%;
+  border: 2px solid gray;
+}
+
+h1 {
+  position: relative;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Nunito Sans';
+}
+
+header h1 {
+  left: 1%;
+}
+
+a {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  position: relative;
+  left: 1%;
+  bottom: 10px;
+}
+
+h2 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+
+section h2 {
+  left: 1%;
+}
+
+section {
+  border: 2px solid gray;
+  position: relative;
+  left: 10%;
+  width: 81%;
+  /* top: 120px; */
+  margin: 10px 0px;
+}
+
+.colors article {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  left: 1%;
+  bottom: 20px;
+}
+
+.blue {
+  background-color: #2d5dcc;
+}
+
+.pink {
+  background-color: #d957d9;
+}
+
+.green {
+  background-color: #4fe0b0;
+}
+
+.beige {
+  background-color: #efd9ca;
+  /* margin-bottom: 30px; */
+}
+
+.fonts article {
+  display: inline-block;
+  width: 45%;
+  position: relative;
+  left: 1%;
+}
+
+.sourcecodepro p {
+  font-family: 'Source Code Pro';
+}
+
+.nunitosans p {
+  font-family: 'Nunito Sans';
+}
+
+.poppins p {
+  font-family: 'Poppins';
+}
+
+.textstyles article {
+  position: relative;
+  left: 1%;
+}
+
+.textstyles article h2 {
+  left: 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14;
+  font-family: 'Poppins';
+}
